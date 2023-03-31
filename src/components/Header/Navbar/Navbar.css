@@ -1,0 +1,18 @@
+.navbarTop {
+  width: 100%;
+}
+
+.navbarUl {
+  background-color: #aaa;
+  margin-top: 10px;
+  width: max-content;
+  border-radius: 15px;
+}
+
+.navbarUlLi {
+  padding: 0 10px;
+}
+
+.btnHamb {
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+.listadoBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: max-content;
+
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.articulo {
+  width: 200px;
+  height: 350px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: 10px;
+}
