@@ -9,9 +9,13 @@
 }
 
 .articulo {
-  width: 200px;
-  height: 350px;
+  width: 220px;
+  height: 310px;
   border: 1px solid #333;
   border-radius: 10px;
   margin: 10px;
+}
+
+.articulo img {
+  border-radius: 10px;
 }

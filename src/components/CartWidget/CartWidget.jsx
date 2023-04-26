@@ -1,9 +1,10 @@
 import "./CartWidget.css";
+import { HiOutlineShoppingCart } from "react-icons/hi";
 
 function CartWidget() {
   return (
     <div className="cartBox">
-      <img width="25px" src="./carro.png" alt="" srcset="" />
+      <HiOutlineShoppingCart size={25} />
       <span className="counterCart">0</span>
     </div>
   );

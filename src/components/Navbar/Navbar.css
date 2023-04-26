@@ -1,0 +1,30 @@
+.navbarTop {
+  width: 100%;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.navbarUl {
+  margin-top: 10px;
+  width: max-content;
+
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.navbarUlLi {
+  padding: 0 10px;
+}
+
+.btnHamb {
+  margin: 0 auto;
+}
+
+.navbar-toggler-icon {
+  width: 40px;
+  border: 1px solid #fff;
+}
+
+.navbarBox {
+  display: flex;
+  justify-content: space-between;
+}

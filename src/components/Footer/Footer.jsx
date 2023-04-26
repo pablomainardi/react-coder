@@ -1,10 +1,13 @@
 import "./Footer.css";
-
+import { Outlet } from "react-router-dom";
 export const Footer = () => {
   return (
-    <div className="footerBox">
-      <h2>Contacto</h2>
-      <h4>Redes</h4>
-    </div>
+    <>
+      <Outlet />
+      <div className="footerBox">
+        <h5>Contacto</h5>
+        <h5>Redes</h5>
+      </div>
+    </>
   );
 };
