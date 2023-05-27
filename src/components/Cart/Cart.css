@@ -1,0 +1,21 @@
+.cardCart {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardItemCart {
+  border: 1px solid #aaa;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.itemsCart {
+  display: flex;
+  justify-content: space-between;
+ 
+}

@@ -15,29 +15,29 @@ export const ItemList = ({ greeting, items }) => {
           return (
             <div key={item.id} className="articulo shadow">
               <Card sx={{ maxWidth: 345 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image={item.img}
-                    alt="Producto a la venta"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
-                      {item.titulo}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      $ {item.precio}
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-                <CardActions>
-                  <Link to={`/itemDetail/${item.id}`}>
+                <Link to={`/itemDetail/${item.id}`}>
+                  <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      height="140"
+                      image={item.img}
+                      alt="Producto a la venta"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h6" component="div">
+                        {item.titulo}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        $ {item.precio}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions>
                     <Button size="small" color="primary">
                       Ver Mas
                     </Button>
-                  </Link>
-                </CardActions>
+                  </CardActions>
+                </Link>
               </Card>
             </div>
           );

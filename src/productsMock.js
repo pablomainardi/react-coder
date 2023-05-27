@@ -12,7 +12,7 @@ export const products = [
     id: 2,
     titulo: "Recco Extractor de jugo",
     precio: 9000,
-    stock: 1,
+    stock: 2,
     descripcion:
       "700w, Extractor de jugos con recipiente para desechos. Excelente estado.",
     categoria: "Hogar",
@@ -22,7 +22,7 @@ export const products = [
     id: 3,
     titulo: "Pulverizador para fumigacion. 6L",
     precio: 3000,
-    stock: 1,
+    stock: 3,
     descripcion: "Mod. Orion 6L, Excelente estado.",
     categoria: "Otros",
     img: "https://picsum.photos/200",
@@ -31,7 +31,7 @@ export const products = [
     id: 4,
     titulo: "Bolsa de boxeo con soporte y relleno",
     precio: 8000,
-    stock: 1,
+    stock: 2,
     descripcion:
       "Bolsa de Box con relleno aprox. 25 kg. Con soporte max 90kg. Buen estado.",
     categoria: "Otros",

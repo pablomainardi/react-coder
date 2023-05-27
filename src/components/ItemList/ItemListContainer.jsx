@@ -12,19 +12,14 @@ export const ItemListContainer = () => {
   console.log(categoryName);
 
   useEffect(() => {
-    const prodFiltrados = products.filter(
+    let prodFiltrados = products.filter(
       (prod) => prod.categoria === categoryName
     );
-    console.log("------prod filtrado");
-    console.log({ prodFiltrados });
-    const task = new Promise((resolve, reject) => {
-      resolve(categoryName ? prodFiltrados : products);
-    });
 
-    task.then((res) => setItems(res));
-
-    task.catch((err) => console.log(err));
+    setItems(prodFiltrados);
   }, [categoryName]);
+
+  console.log(items);
 
   return <ItemList items={items} greeting={greeting} />;
 };

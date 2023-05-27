@@ -1,10 +1,13 @@
 .itemDetail {
   max-width: 800px;
   min-width: 350px;
-  border: 1px solid black;
   text-align: center;
   padding: 20px;
   margin: 20px auto;
+  justify-content: center;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
 }
 
 .itemDetail img {

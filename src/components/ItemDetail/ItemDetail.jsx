@@ -6,8 +6,9 @@ import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import "./ItemDetail.css";
+import CounterContainer from "../Counter/CounterContainer";
 
-export const ItemDetail = ({ product }) => {
+export const ItemDetail = ({ product, agregado }) => {
   return (
     <div key={product.id} className="shadow">
       <Card className="itemDetail">
@@ -33,12 +34,15 @@ export const ItemDetail = ({ product }) => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Link to="/">
-            <Button size="small" color="primary">
-              Comprar
-            </Button>
-          </Link>
+          <div>
+            <CounterContainer stock={product.stock} agregado={agregado} />
+          </div>
         </CardActions>
+        <Link to="/">
+          <Button size="small" color="primary">
+            Atras
+          </Button>
+        </Link>
       </Card>
     </div>
   );
